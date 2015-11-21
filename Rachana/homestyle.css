@@ -1,0 +1,71 @@
+﻿
+/*Font Reference*/
+@font-face {font-family: 'Illegal_Curves_Bold';src: url('fonts/Illegal_Curves/Illegal_Curves_Bold.otf') format('opentype');}
+@font-face {font-family: 'Oswald-Regular';src: url('fonts/oswald/Oswald-Regular.ttf') format('truetype');}
+@font-face {font-family: 'MODERNE SANS';src: url('fonts/MODERNE SANS.ttf') format('truetype');}
+@font-face {font-family: 'Reckoner_Bold';src: url('fonts/Reckoner_Bold.ttf') format('truetype');}
+@font-face {font-family: 'Voltaire-Regular';src: url('fonts/Voltaire-Regular.otf') }
+
+.border { border-style:solid; border-color:black; border-width:1px;}
+
+/*Font Classes*/
+.font_illegal {font-family: 'Illegal_Curves_Bold';}
+.font_reckoner{ font-family: 'Reckoner_Bold';}
+.font_oswald {font-family: 'Oswald-Regular';}
+.font_modernsans { font-family: 'MODERNE SANS';}
+.font_voltaire {font-family: 'Voltaire-Regular';}
+/*Body Background*/
+.whitespace {background-color:#e5e4d7;}
+
+.padding_10 { padding:10px;}
+/*Color Schemes*/
+.background_darkgreen {background-color:#2c6700;}
+.forecolor_white {color:white;}
+.forecolor_lightgreen {color:#1fcb28;}
+.forecolor_darkgreen {color:#2c6700;}
+.bclass {color:white;background-color:#1fcb28;text-align:center;}
+.antibclass {color:#1fcb28;text-align:center;}
+
+/*Font Sizes*/
+.fontsize_28 {font-size:28px;}
+.fontsize_26 {font-size:26px;}
+.fontsize_24 {font-size:24px;}
+.fontsize_22 { font-size:22px;}
+.fontsize_30 {font-size:30px;}
+.fontsize_40 { font-size:40px;}
+/*.item {
+    height:350px;  
+}*/
+
+.carousel .carousel-inner .item img{ height:400px; margin:auto; }
+#gallery_images{
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+
+}
+#gallery_images:hover {
+    transition-duration:.5s;
+   
+    filter: none; /* IE6-9 */
+    -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+ }
+
+/*Alignments*/
+.float_left { float:left;}
+.float_right { float:right;}
+.margin_10top {margin-top:10px;}
+
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('/images/726.gif') 50% 50% no-repeat rgb(249,249,249);
+}
